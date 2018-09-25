@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #1a3d15;
 }
 
 li {
@@ -14,10 +14,11 @@ li a {
     display: block;
     color: white;
     text-align: center;
+    font-family: fantasy;
     padding: 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111111;
+    background-color: #2b4e2d;
 }
