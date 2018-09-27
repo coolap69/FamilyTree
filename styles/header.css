@@ -12,9 +12,10 @@ li {
 
 li a {
     display: block;
+    font-size: 1em;
     color: white;
     text-align: center;
-    font-family: fantasy;
+    font-family: fantasy, "Comic Sans MS", sans-serif;
     padding: 16px;
     text-decoration: none;
 }
