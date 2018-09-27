@@ -1,29 +1,10 @@
-/* little box */
-.content {
-    background-color: #3b2b06;
-    display: block;
-    width: 500px;
-    height:500px;
-    margin: 100px auto;
-    padding:30px;
-    position: relative;
-    color: white;
-    border-radius: 10%;
-    box-shadow: 5px 5px 5px #1a3d15;
-}
-.title {
-    color:white;
-}
+
 .login-info {
     margin: 1vw;
 }
 .login-info label {
     margin-right: 1vw;
 }
-#login-button {
-    background-color: #1a3d15;
-}
-
 body {
     background: url(../images/tree.jpg) no-repeat center center fixed;
     background-size: cover;

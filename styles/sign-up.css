@@ -1,5 +1,5 @@
 /* little box */
-.content {
+/* .content {
     background-color: #3b2b06;
     display: block;
     width: 500px;
@@ -10,11 +10,7 @@
     color: white;
     border-radius: 10%;
     box-shadow: 5px 5px 5px #1a3d15;
-}
-
-.title {
-    color:white;
-}
+} */
 
 .sign-up-info {
     margin: 1vw;
@@ -22,10 +18,6 @@
 
 .sign-up-info label {
     margin-right: 1vw;
-}
-
-#sign-up-button {
-    background-color: #1a3d15;
 }
 
 .signup-page{
