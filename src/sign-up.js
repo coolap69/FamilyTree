@@ -9,7 +9,7 @@ var signUp = function () {
     const profile = {
         firstName: "",
         lastName: "",
-        alias: document.forms["sign-up-form"]["alias-fam"].value,
+        alias: document.forms["sign-up-form"]["alias"].value,
         email: document.forms["sign-up-form"]["email"].value,
         gender: document.forms["sign-up-form"]["gender"].value,
         dob: document.forms["sign-up-form"]["dob"].value,
