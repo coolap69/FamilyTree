@@ -1,5 +1,5 @@
 document.getElementById("upsertStoryForm").addEventListener("submit", function (e) {
-    debugger;
+    // debugger;
 
     e.preventDefault();
     upsertStoryForm();
@@ -8,16 +8,18 @@ document.getElementById("upsertStoryForm").addEventListener("submit", function (
 var upsertStoryForm = function () {
     const story = {
         title: document.forms["upsertStoryForm"]["title"].value,
-        text: document.forms["upsertStoryForm"]["text"].value,
+        // text: document.forms["upsertStoryForm"]["text"].value,
         // lat: document.forms["upsertStoryForm"]["lat"].value,
         // long: document.forms["upsertStoryForm"]["long"].value,
-        address1: document.forms["upsertStoryForm"]["address1"].value,
-        address2: document.forms["upsertStoryForm"]["address2"].value,
+        address1: document.forms["upsertStoryForm"]["mother"].value,
+        address1: document.forms["upsertStoryForm"]["father"].value,
+        address2: document.forms["upsertStoryForm"]["sister"].value,
+        address2: document.forms["upsertStoryForm"]["brother"].value,
         city: document.forms["upsertStoryForm"]["city"].value,
         state: document.forms["upsertStoryForm"]["state"].value,
         zip: document.forms["upsertStoryForm"]["zip"].value,
         country: document.forms["upsertStoryForm"]["country"].value,
-        dateTime: document.forms["upsertStoryForm"]["date-time"].value,
+        // dateTime: document.forms["upsertStoryForm"]["date-time"].value,
         createdBy: window.sessionStorage.loggedIn
     };
 
@@ -33,7 +35,7 @@ var upsertStoryForm = function () {
 
     stories.push(story);
     window.localStorage.stories = JSON.stringify(stories);
-    window.location.href = "./story-details.html?id=" + story.id;
+    window.location.href = "./famtree-details.html?id=" + story.id;
 
     return false;
 }

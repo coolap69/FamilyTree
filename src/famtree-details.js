@@ -42,7 +42,7 @@ var loadStory = function () {
 
         let editButtonNode = document.getElementById("edit-button");
 
-        editButtonNode.setAttribute("href", "upsert-story.html?id=" + story.id);
+        editButtonNode.setAttribute("href", "upsert-famtree.html?id=" + story.id);
     } else {
         alert("Story not found.");
     }
