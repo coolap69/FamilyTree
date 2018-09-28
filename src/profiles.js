@@ -46,15 +46,15 @@ var displayProfile = function (profile) {
     }
 }
 
-document.getElementById("editProfileForm").addEventListener("submit", function (e) {
-    // debugger;
-
-    e.preventDefault();
-
-    const results = loadProfile();
-
-    editProfileForm(results);
-});
+  document.getElementById("editProfileForm").addEventListener("submit", function (e) {
+            // debugger;
+        
+            e.preventDefault();
+        
+            const results = loadProfile();
+        
+            editProfileForm(results);
+        });
 
 var editProfileForm = function (results) {
     if (results.profile != null) {
@@ -70,9 +70,10 @@ var editProfileForm = function (results) {
             gender: document.forms["editProfileForm"]["gender"].value,
             dob: document.forms["editProfileForm"]["dob"].value,
         };
-        const confirmPassword = document.forms["editProfileForm"]["confirm-password"].value
+        const confirmPassword = document.forms["editProfileForm"]["confirm-password"] ? document.forms["editProfileForm"]["confirm-password"].value : null;
+        const profiles = window.localStorage.profiles ? JSON.parse(window.localStorage.profiles) : [];
 
-        if (profile.password != confirmPassword) {
+          if (updatedProfile.password && results.profile.password != updatedProfile.password && profile.password != confirmPassword) {
             alert("Password must be the same as Confirmation Password.");
         } else {  // Replace old profile with captured profile
             profiles[profileIndex].firstName = updatedProfile.firstName ? updatedProfile.firstName : profiles[profileIndex].firstName;
