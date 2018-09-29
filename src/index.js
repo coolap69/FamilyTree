@@ -67,7 +67,7 @@ var createStoryNode = function (story) {
 }
 
 document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
-    debugger;
+    // debugger;
 
     e.preventDefault();
 
