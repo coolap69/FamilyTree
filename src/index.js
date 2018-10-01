@@ -45,7 +45,7 @@ var createStoryNode = function (story) {
     var storyNode = document.createElement("div");
     var detailsNode = document.createElement("a");
     var editNode = document.createElement("a");
-    var deleteNode = document.createElement("span");
+    var deleteNode = document.createElement("a");
 
     detailsNode.setAttribute("href", "famtree-details.html?id=" + story.id);
     detailsNode.innerHTML = '<span class="story-title">' + story.title + '</span> |';
@@ -55,9 +55,10 @@ var createStoryNode = function (story) {
         <i>Edit</i> \
     </span> |';
 
+    deleteNode.setAttribute("href", "famtree-details.html?id=" + story.id);
     deleteNode.innerHTML = '<span class="delete-button"> \
     <em>Delete</em> \
-</span>';
+    </span> |';
 
     storyNode.appendChild(detailsNode);
     storyNode.appendChild(editNode);
@@ -66,10 +67,10 @@ var createStoryNode = function (story) {
     return storyNode;
 }
 
-document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
-    // debugger;
+// document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
+//     // debugger;
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    alert("Clicked delete button.");
-});
+//     alert("Clicked delete button.");
+// });
