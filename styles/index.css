@@ -1,9 +1,28 @@
+/* background image */
 .homepage {
 background: url(../images/fronttrees.jpg) no-repeat center center fixed;
 background-size: cover;
 }
+/*  */
+
  h2 {
      color: white !important;
      font-family: fantasy !important;
- }
+}
  
+/* top images */
+ .thumbnails {
+    color: white;
+    font-family: fantasy;
+}
+.brother {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/*  */
+
+#other-stories {
+    text-align: center;
+
+}

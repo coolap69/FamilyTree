@@ -29,8 +29,9 @@ header iframe {
 .title {
     color:white;
     text-align: center;
+    font-family: fantasy;
     font-size: 3em;
-    margin-top: -10px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
