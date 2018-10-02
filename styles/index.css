@@ -12,17 +12,34 @@ background-size: cover;
  
 /* top images */
  .thumbnails {
+    align-content: center;
     color: white;
+    text-align: center;
     font-family: fantasy;
 }
-.brother {
-    width: 120px;
-    height: 120px;
+.yourself {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    /* -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc; */
+    /* box-shadow:         3px 3px 5px 6px #ccc; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgba(49, 206, 28, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* text-align: center;     */
+    /* margin-bottom: 2%; */
 }
 /*  */
 
 #other-stories {
     text-align: center;
 
+}
+
+.carousel-inner {
+    margin-left: 42%;
+}
+
+#bmiddle {
+margin-left: 42%;
 }
