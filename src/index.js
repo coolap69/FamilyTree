@@ -1,4 +1,5 @@
-window.onload = function (e) {
+// window.onload = function (e) {
+window.onload.href="/upsert-famtree.html" = function (e) {
     // debugger;
 
     if (typeof window.sessionStorage.loggedIn === "undefined" || window.sessionStorage.loggedIn === null || window.sessionStorage.loggedIn === "") {
@@ -67,10 +68,10 @@ var createStoryNode = function (story) {
     return storyNode;
 }
 
-// document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
-//     // debugger;
+document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
+    // debugger;
 
-//     e.preventDefault();
+    e.preventDefault();
 
-//     alert("Clicked delete button.");
-// });
+    alert("Clicked delete button.");
+});
