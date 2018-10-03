@@ -13,12 +13,12 @@ var upsertStoryForm = function () {
         // long: document.forms["upsertStoryForm"]["long"].value,
         mother: document.forms["upsertStoryForm"]["mother"].value,
         father: document.forms["upsertStoryForm"]["father"].value,
-        address2: document.forms["upsertStoryForm"]["sister"].value,
-        address2: document.forms["upsertStoryForm"]["brother"].value,
-        city: document.forms["upsertStoryForm"]["city"].value,
-        state: document.forms["upsertStoryForm"]["state"].value,
-        zip: document.forms["upsertStoryForm"]["zip"].value,
-        country: document.forms["upsertStoryForm"]["country"].value,
+        sister: document.forms["upsertStoryForm"]["sister"].value,
+        brother: document.forms["upsertStoryForm"]["brother"].value,
+        // city: document.forms["upsertStoryForm"]["city"].value,
+        // state: document.forms["upsertStoryForm"]["state"].value,
+        // zip: document.forms["upsertStoryForm"]["zip"].value,
+        // country: document.forms["upsertStoryForm"]["country"].value,
         // dateTime: document.forms["upsertStoryForm"]["date-time"].value,
         createdBy: window.sessionStorage.loggedIn
     };

@@ -32,13 +32,15 @@ var loadStory = function () {
 
     if (foundStory) {
         document.getElementById("title").innerText = story.title;
-        document.getElementById("text").innerText = story.text;
-        document.getElementById("address1").innerText = story.address1;
-        document.getElementById("address2").innerText = story.address2;
-        document.getElementById("city").innerText = story.city;
-        document.getElementById("state").innerText = story.state;
-        document.getElementById("zip").innerText = story.zip;
-        document.getElementById("country").innerText = story.country;
+        // document.getElementById("text").innerText = story.text;
+        document.getElementById("mother").innerText = story.mother;
+        document.getElementById("father").innerText = story.father;
+        document.getElementById("sister").innerText = story.sister;
+        document.getElementById("brother").innerText = story.brother;
+        // document.getElementById("city").innerText = story.city;
+        // document.getElementById("state").innerText = story.state;
+        // document.getElementById("zip").innerText = story.zip;
+        // document.getElementById("country").innerText = story.country;
 
         let editButtonNode = document.getElementById("edit-button");
 
