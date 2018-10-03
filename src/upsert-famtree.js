@@ -12,7 +12,7 @@ var upsertStoryForm = function () {
         // lat: document.forms["upsertStoryForm"]["lat"].value,
         // long: document.forms["upsertStoryForm"]["long"].value,
         mother: document.forms["upsertStoryForm"]["mother"].value,
-        address1: document.forms["upsertStoryForm"]["father"].value,
+        father: document.forms["upsertStoryForm"]["father"].value,
         address2: document.forms["upsertStoryForm"]["sister"].value,
         address2: document.forms["upsertStoryForm"]["brother"].value,
         city: document.forms["upsertStoryForm"]["city"].value,

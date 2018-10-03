@@ -1,5 +1,5 @@
-// window.onload = function (e) {
-window.onload.href="/upsert-famtree.html" = function (e) {
+window.onload = function (e) {
+// window.onload.href="upsert-famtree.html" = function (e) {
     // debugger;
 
     if (typeof window.sessionStorage.loggedIn === "undefined" || window.sessionStorage.loggedIn === null || window.sessionStorage.loggedIn === "") {
@@ -9,6 +9,8 @@ window.onload.href="/upsert-famtree.html" = function (e) {
 
     loadStories();
 };
+
+
 
 /**
  * 
@@ -27,11 +29,11 @@ var loadStories = function () {
 
         // Display each story that belongs the logged in user
         if (story.createdBy == window.sessionStorage.loggedIn) {
-            const myStoryNode = createStoryNode(story);
+            const myStoryNode = createFamilyNode(story);
 
             myStoriesNode.appendChild(myStoryNode);
         } else {  // Display other stories as well
-            const otherStoryNode = createStoryNode(story.id);
+            const otherStoryNode = createFamilyNode(story.id);
 
             otherStoriesNode.appendChild(otherStoryNode);
         }
@@ -42,7 +44,7 @@ var loadStories = function () {
  * 
  * @param {*} story 
  */
-var createStoryNode = function (story) {
+var createFamilyNode = function (story) {
     var storyNode = document.createElement("div");
     var detailsNode = document.createElement("a");
     var editNode = document.createElement("a");
@@ -68,10 +70,10 @@ var createStoryNode = function (story) {
     return storyNode;
 }
 
-document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
-    // debugger;
+// document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
+//     // debugger;
 
-    e.preventDefault();
+//     e.preventDefault();
 
-    alert("Clicked delete button.");
-});
+//     alert("Clicked delete button.");
+// });
