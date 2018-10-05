@@ -37,8 +37,8 @@ var loadStory = function () {
         document.getElementById("father").innerText = story.father;
         document.getElementById("sister").innerText = story.sister;
         document.getElementById("brother").innerText = story.brother;
-        // document.getElementById("city").innerText = story.city;
-        // document.getElementById("state").innerText = story.state;
+        document.getElementById("wife").innerText = story.city;
+        document.getElementById("grandma").innerText = story.state;
         // document.getElementById("zip").innerText = story.zip;
         // document.getElementById("country").innerText = story.country;
 
