@@ -17,7 +17,7 @@ var upsertStoryForm = function () {
         brother: document.forms["upsertStoryForm"]["brother"].value,
         wife: document.forms["upsertStoryForm"]["wife"].value,
         grandma: document.forms["upsertStoryForm"]["grandma"].value,
-        // zip: document.forms["upsertStoryForm"]["zip"].value,
+        grandpa: document.forms["upsertStoryForm"]["grandpa"].value,
         // country: document.forms["upsertStoryForm"]["country"].value,
         // dateTime: document.forms["upsertStoryForm"]["date-time"].value,
         createdBy: window.sessionStorage.loggedIn
