@@ -38,8 +38,8 @@ var loadStory = function () {
         document.getElementById("sister").innerText = story.sister;
         document.getElementById("brother").innerText = story.brother;
         document.getElementById("wife").innerText = story.wife;
-        document.getElementById("grandma").innerText = story.grandma;
-        document.getElementById("grandpa").innerText = story.grandpa;
+        document.getElementById("grandmother").innerText = story.grandmother;
+        document.getElementById("grandfather").innerText = story.grandfather;
         // document.getElementById("country").innerText = story.country;
 
         let editButtonNode = document.getElementById("edit-button");

@@ -48,7 +48,7 @@ var createFamilyNode = function (story) {
     var storyNode = document.createElement("div");
     var detailsNode = document.createElement("a");
     var editNode = document.createElement("a");
-    var deleteNode = document.createElement("a");
+    var deleteNode = document.createElement("div");
 
     detailsNode.setAttribute("href", "famtree-details.html?id=" + story.id);
     detailsNode.innerHTML = '<span class="story-title">' + story.title + '</span> |';
