@@ -1,5 +1,5 @@
-window.onload = function (e) {
-// window.onload.href="upsert-famtree.html" = function (e) {
+// window.onload = function (e) {
+window.onload.href="upsert-famtree.html" = function (e) {
     // debugger;
 
     if (typeof window.sessionStorage.loggedIn === "undefined" || window.sessionStorage.loggedIn === null || window.sessionStorage.loggedIn === "") {
@@ -76,4 +76,4 @@ var createFamilyNode = function (story) {
 //     e.preventDefault();
 
 //     alert("Clicked delete button.");
-// });
+});

@@ -46,6 +46,6 @@ var loadStory = function () {
 
         editButtonNode.setAttribute("href", "upsert-famtree.html?id=" + story.id);
     } else {
-        alert("Story not found.");
+        alert("Family not found.");
     }
 }
