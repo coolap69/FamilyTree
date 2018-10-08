@@ -15,7 +15,7 @@ var upsertStoryForm = function () {
         father: document.forms["upsertStoryForm"]["father"].value,
         sister: document.forms["upsertStoryForm"]["sister"].value,
         brother: document.forms["upsertStoryForm"]["brother"].value,
-        wife: document.forms["upsertStoryForm"]["wife"].value,
+        loveone: document.forms["upsertStoryForm"]["loveone"].value,
         grandma: document.forms["upsertStoryForm"]["grandma"].value,
         grandpa: document.forms["upsertStoryForm"]["grandpa"].value,
         // country: document.forms["upsertStoryForm"]["country"].value,
