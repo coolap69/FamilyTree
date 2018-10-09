@@ -61,8 +61,9 @@ header iframe {
     background-color: #1a3d15;
 }
 
-.buttons input, a {
+.buttons .input, a {
     margin: 5px;
+    text-align: center;
 }
 
 @media screen and (max-width: 375px) {
