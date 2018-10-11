@@ -33,6 +33,7 @@ var upsertStoryForm = function () {
         story.id = stories.length + 1;
     }
 
+
     stories.push(story);
     window.localStorage.stories = JSON.stringify(stories);
     window.location.href = "./famtree-details.html?id=" + story.id;
