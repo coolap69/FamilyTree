@@ -1,7 +1,7 @@
-document.getElementById("my-stories").addEventListener("submit", function (e) {
+document.getElementById("upsertStoryForm").addEventListener("submit", function (e) {
     // debugger;
 
-    e.preventDefault();
+    // e.preventDefault();
     upsertStoryForm();
 });
 
