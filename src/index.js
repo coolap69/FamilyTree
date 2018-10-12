@@ -18,7 +18,7 @@ window.onload = function (e) {
 var loadStories = function () {
     // Get the stories div
     const myFamilyNode = document.getElementById("my-stories");
-    const otherStoriesNode = document.getElementById("other-stories");
+    const otherFamiliessNode = document.getElementById("other-stories");
 
     // Get list of stories
     let stories = window.localStorage.stories ? JSON.parse(window.localStorage.stories) : [];
@@ -33,9 +33,9 @@ var loadStories = function () {
 
             myFamilyNode.appendChild(myStoryNode);
         } else {  // Display other stories as well
-            const otherStoryNode = createFamilyNode(story.id);
+            const otherFamilyNode = createFamilyNode(story.id);
 
-            otherStoriesNode.appendChild(otherStoryNode);
+            otherFamiliessNode.appendChild(otherFamilyNode);
         }
     }
 }
