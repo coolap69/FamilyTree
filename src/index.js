@@ -58,10 +58,11 @@ var createFamilyNode = function (story) {
         <i>Edit</i> \
     </span> |';
 
-    deleteNode.setAttribute("href", "famtree-details.html?id=" + story.id);
+    // deleteNode.setAttribute("href", "famtree-details.html?id=" + story.id);
     deleteNode.innerHTML = '<span class="delete-button"> \
-    <em>Delete</em> \
+        <em>Delete</em> \
     </span> |';
+
 
     storyNode.appendChild(detailsNode);
     storyNode.appendChild(editNode);
@@ -70,10 +71,10 @@ var createFamilyNode = function (story) {
     return storyNode;
 }
 
-// document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
-//     // debugger;
+document.getElementsByClassName("delete-button").addEventListener("click", function (e) {
+    // debugger;
 
-//     e.preventDefault();
+    e.preventDefault();
 
-//     alert("Clicked delete button.");
-// });
+    alert("Clicked delete button.");
+});
