@@ -17,7 +17,7 @@ window.onload = function (e) {
  */
 var loadStories = function () {
     // Get the stories div
-    const myFamilyNode = document.getElementById("my-stories");
+    const myFamilyNode = document.getElementById("myFamily");
     const otherFamiliessNode = document.getElementById("other-stories");
 
     // Get list of stories
